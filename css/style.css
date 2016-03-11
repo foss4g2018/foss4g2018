@@ -235,6 +235,9 @@ a.menu_toggler {display:none;
 }
 
 /* Main Slider */
+#home {
+    padding-top: 100px;
+}
 .full_slider {
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -393,6 +396,9 @@ h2 {
 
 .grey_wrap {
 	background:#f6f6f6;
+}
+.dark_grey_wrap {
+	background:#e8e8e8;
 }
 
 .rhomb_block {
@@ -1215,6 +1221,13 @@ textarea:focus:-ms-input-placeholder {
 	display:block;
 	text-align:center;
 	margin-bottom:15px;
+}
+/* FAQ */
+.question {
+    font-weight: bold;
+}
+.answer {
+    margin-bottom: 1em;
 }
 
 /* Responsive changes */
