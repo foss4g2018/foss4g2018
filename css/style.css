@@ -457,7 +457,25 @@ h2 {
 	background:#2d2e2e;
 	content:'';
 }
-
+/* Rule */
+ol li {
+    list-style: decimal;
+}
+ol li ol li {
+    list-style: lower-alpha;
+}
+/* Partners */
+.partners .partner {
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    margin: 10px;
+    background: #fff;
+}
+.partners .partner img {
+    max-height: 100%;
+}
 /* Padding */
 .pt9 {
 	padding-top:9px;
