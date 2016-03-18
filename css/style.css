@@ -1985,6 +1985,10 @@ textarea:focus:-ms-input-placeholder {
 	}	
 		
 }
+/* make date buttons non-clickable */
+.shortcode_tab_item_title {
+    pointer-events: none !important;
+}
 
 
 
