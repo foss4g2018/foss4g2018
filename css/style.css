@@ -1990,6 +1990,38 @@ textarea:focus:-ms-input-placeholder {
     pointer-events: none !important;
 }
 
+/* presentation */
+.presentation h3 {
+    font-size: 20px;
+    line-height: 26px;
+    height: 52px;
+    margin-bottom: 10px;
+}
+.presentation {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.slide-wrapper {
+  height: 0;
+  padding-bottom: 56.25%;
+  padding-right: 20px;
+  padding-top: 25px;
+  position: relative;
+}
+.slide-wrapper iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.slide-wrapper img {
+  left: -2px;
+  position: absolute;
+  top: -3px;
+  z-index: 5;
+}
+
 
 
 
