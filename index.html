@@ -1,39 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>FloodHack2016</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<link href="css/plugins.css" rel="stylesheet" type="text/css" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="./img/favicon.ico">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>FloodHack2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700"
+          rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 
 <body class="animated" data-animated="fadeIn">
-<div class="wrapper"> 
+<div class="wrapper">
     <!-- header section -->
     <section id="top">
         <header>
-            <div class="container"> 
+            <div class="container">
                 <!-- logo -->
-                <div id="logo"> <a href="#home"><img src="./img/floodhack-logo-top.png" width="350" height="61" alt="Floodhack logo" /></a> </div>
+                <div id="logo"><a href="#home"><img
+                        src="./img/floodhack-logo-top.png" width="350"
+                        height="61" alt="Floodhack logo"/></a></div>
                 <!-- menu -->
                 <nav class="navmenu">
                     <ul>
                         <!-- <li class="scrollable active"><a href="#home">Home</a></li> -->
                         <li class="scrollable"><a href="#about">About</a></li>
-                        <li class="scrollable"><a href="#vision">Vision</a></li>
-                        <li class="scrollable"><a href="#program">Program</a></li>
+                        <li class="scrollable"><a href="#vision">Vision</a>
+                        </li>
+                        <li class="scrollable"><a
+                                href="#workshops">Workshops</a></li>
                         <li class="scrollable"><a href="#LOC">LOC</a></li>
-                        <!-- <li class="scrollable"><a href="#speakers">Speakers</a></li> -->
                         <li class="scrollable"><a href="#rule">Rules</a></li>
-                        <li class="scrollable"><a href="#contact">Contact</a></li>
-                        <li class="scrollable"><a href="#api">API</a></li>
-                        <li class="scrollable"><a href="#sponsors">Sponsors</a></li>
+                        <li class="scrollable"><a href="#contact">Contact</a>
+                        </li>
+                        <li class="scrollable"><a href="#sponsors">Sponsors</a>
+                        </li>
                     </ul>
                 </nav>
                 <!-- end nav -->
@@ -44,38 +49,45 @@
     <!-- //header section -->
 
     <!-- home content -->
-    <section class="page_section" id="home"> 
+    <section class="page_section" id="home">
         <!--Slider-->
         <div class="full_slider preloader">
             <div id="fullwidth_slider" class="flexslider">
                 <ul class="slides">
-                    <li> <img src="./img/backgrounds/dar_from_the_air.jpg" alt="" class="slide_bg" />
+                    <li><img src="./img/backgrounds/dar_from_the_air.jpg"
+                             alt="" class="slide_bg"/>
                         <div class="full_slider_caption">
                             <div class="container">
                                 <h2 style="color: white;">#foss4g2018</h2>
-                                <p style="color: white;">27, 28 August 2018 : Workshops</p>
-                                <p style="color: white;">29, 31 August 2018 : Three day main conference</p>
-                                <p style="color: white;">1, 2 September 2018 : Code sprints and community events</p>
+                                <p style="color: white;">27, 28 August 2018 :
+                                    Workshops</p>
+                                <p style="color: white;">29, 31 August 2018 :
+                                    Three day main conference</p>
+                                <p style="color: white;">1, 2 September 2018 :
+                                    Code sprints and community events</p>
                                 <div class="global_count_wrapper">
                                     <script>
-                      jQuery(function () {
-                        austDay = new Date();
-                        austDay = new Date(2018, 7-1, 27, 12, 0, 0); //year, month-1, day
-                        jQuery('#countdown').countdown({
-                          until: austDay
-                        });
-                      });
-                    </script>
+                                        jQuery(function () {
+                                            austDay = new Date();
+                                            austDay = new Date(2018, 7 - 1, 27, 12, 0, 0); //year, month-1, day
+                                            jQuery('#countdown').countdown({
+                                                until: austDay
+                                            });
+                                        });
+                                    </script>
                                     <div id="countdown"></div>
                                 </div>
-                                <div class="shortcode_button"><a href="#results" style="color:#fff;">Book your tickets, don't miss the GIS event of the year!</a></div>
+                                <div class="shortcode_button"><a
+                                        href="#results" style="color:#fff;">
+                                    Book your plane tickets, don't miss the GIS
+                                    event of the year!</a></div>
                             </div>
                         </div>
                     </li>
                 </ul>
             </div>
-            <a href="#conference" class="next_section hide"></a> </div>
-        <!--//Slider--> 
+            <a href="#conference" class="next_section hide"></a></div>
+        <!--//Slider-->
     </section>
 
     <section class="page_section" id="about">
@@ -84,232 +96,129 @@
                 <div class="row">
                     <!-- Welcome Text -->
                     <h2>About</h2>
-                    <p>A FOSS4G event can catalyse the geo community in the host country.
-                        Now is the time for Africa! Free and open source software in Sub-Saharan
-                        Africa is still in its infancy, but here is where the principles of
-                        FOSS4G can have the largest impact, in setting the FOSS4G agenda,
-                        together we can build the foundations for generations to come.
-                        FOSS4G Dar should be seen as a FOSS4G Africa, quite distinct from
-                        FOSS4G 2008 in Cape Town which because of its geography had a
-                        localised impact. Tanzania is accessible to much more of Africa as
-                        well as the Middle East and Arabian Peninsula and Indian subcontinent and
-                        so taps into a new 'impact zone' for OSGeo. </p>
+                    <p>A FOSS4G event can catalyse the geo community in the
+                        host country.
+                        Now is the time for Africa! Free and open source
+                        software in Sub-Saharan Africa is still in its infancy,
+                        but here is where the principles of FOSS4G can have
+                        the largest impact, in setting the FOSS4G agenda,
+                        together we can build the foundations for generations
+                        to come.
+                        FOSS4G Dar should be seen as a FOSS4G Africa, quite
+                        distinct from FOSS4G 2008 in Cape Town which because
+                        of its geography had a localised impact.
+                        Tanzania is accessible to much more of Africa as
+                        well as the Middle East and Arabian Peninsula and
+                        Indian subcontinent and so taps into a new 'impact zone'
+                        for OSGeo. </p>
                     <div style="clear: both;"></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- conference content-->
-            <!--
-    <section class="page_section" id="results">
-        <div class="pt130 pb123">
-            <div class="container">
-                <div class="row"> 
-                    <h2>Presentations</h2>
-                    <div class="col-md-4 presentation">
-                        <h3>Team 1 - <strong>Which Areas in Jakarta Are Most Vulnerability</strong></h3>
-                        <div class="slide-wrapper"><iframe src="//www.slideshare.net/slideshow/embed_code/key/cbxjBB2LuUwSC4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
-                        
-                    </div>
-                    <div class="col-md-4 presentation">
-                        <h3>Team 2 - <strong>Go! Flood</strong></h3>
-                        <div class="slide-wrapper"><img src="img/best-concept.png"/><iframe src="//www.slideshare.net/slideshow/embed_code/key/HBe0ndGimJ38Hk" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
-                    </div>
-                   
-                    <div class="col-md-4 presentation">
-                        <h3>Team 3 - <strong>App For Flood Damage Mitigation</strong></h3>
-                        <div class="slide-wrapper"><iframe src="//www.slideshare.net/slideshow/embed_code/key/J1Gk6Hkn0lMzCD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>                      
-                    </div>
-                     <div style="clear: both;"></div>
-                    <div class="col-md-4 presentation">
-                        <h3>Team 4 - <strong>Mitigasi Banjir Melalui Mobile Application</strong></h3>
-                        <div class="slide-wrapper"><img src="img/best-design.png"/><iframe src="//www.slideshare.net/slideshow/embed_code/key/HWmO5UcquyxdLf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
-                    </div>
-                    
-                    <div class="col-md-4 presentation">
-                        <h3>Team 5 - <strong>AER Tools</strong></h3>
-                        <div class="slide-wrapper"><img src="img/winner.png"/><iframe src="//www.slideshare.net/slideshow/embed_code/key/f39qbqP2JdeYRS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>                       
-                    </div>
-                     <div style="clear: both;"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    -->
-    <!-- conference content-->
     <section class="page_section" id="conference">
-    <div class="grey_wrap pt130 pb123">
-        <div class="container">
-            <div class="row"> 
-                <!-- Welcome Text -->
-                <div class="col-md-6">
-                    <div class="welcome_text">
-                        <h2>Vision</h2>
-                        <div class="descr">Build and share the potential of Africa with the World!</div>
-                        <p>
-                            Our vision is for an accessible and inclusive FOSS4G that complements
-                            the existing OSGeo stable while empowering the Open Data, Participatory
-                            Mapping and Internet of Things work currently underway. This ranges
-                            from locating schools to the instrumentation of communities with cheap,
-                            open source, 3D printed weather stations that improve community resilience
-                            to climate change. Location and geography are at the heart of these challenges:
-                            FOSS4G 2018 in Dar es Salaam would invigorate our existing projects,
-                            bringing them to new users and developers while supporting and nurturing the
-                            existing community.
-                        </p>
-                        <p>
-                            Our strong conference program reflects our vision for a diverse and inclusive
-                            FOSS4G. The conference program will be driven by our LOC and synchronise
-                            with the technology and innovation communities in Dar es Salaam and across
-                            Africa. Our LOC is truly international, strongly rooted in Tanzania and
-                            will deliver our expansive vision, deepen OSGeo community engagement
-                            locally and strengthen the international community .
-                        </p>
+        <div class="grey_wrap pt130 pb123">
+            <div class="container">
+                <div class="row">
+                    <!-- Welcome Text -->
+                    <div class="col-md-6">
+                        <div class="welcome_text">
+                            <h2>Vision</h2>
+                            <div class="descr">Build and share the potential of
+                                Africa with the World!
+                            </div>
+                            <p>
+                                Our vision is for an accessible and inclusive
+                                FOSS4G that complements
+                                the existing OSGeo stable while empowering the
+                                Open Data, Participatory
+                                Mapping and Internet of Things work currently
+                                underway. This ranges
+                                from locating schools to the instrumentation of
+                                communities with cheap,
+                                open source, 3D printed weather stations that
+                                improve community resilience
+                                to climate change. Location and geography are
+                                at the heart of these challenges:
+                                FOSS4G 2018 in Dar es Salaam would invigorate
+                                our existing projects,
+                                bringing them to new users and developers while
+                                supporting and nurturing the
+                                existing community.
+                            </p>
+                            <p>
+                                Our strong conference program reflects our
+                                vision for a diverse and inclusive
+                                FOSS4G. The conference program will be driven
+                                by our LOC and synchronise
+                                with the technology and innovation communities
+                                in Dar es Salaam and across
+                                Africa. Our LOC is truly international,
+                                strongly rooted in Tanzania and
+                                will deliver our expansive vision, deepen OSGeo
+                                community engagement
+                                locally and strengthen the international
+                                community .
+                            </p>
+                        </div>
                     </div>
+                    <!-- Floodhack Image -->
+                    <div class="col-md-6"><img src="./img/floodhack2016.png"
+                                               alt=""/></div>
                 </div>
-                <!-- Floodhack Image -->
-                <div class="col-md-6"> <img src="./img/floodhack2016.png" alt="" /> </div>
             </div>
         </div>
-    </div>
-    <div class="dark_grey_wrap  pt110 pb85">
-        <div class="container">
-            <div class="row"> 
-                <!-- why section -->
-                <div class="col-md-6 mb30">
-                    <h2>Workshops</h2>
-                    <div class="descr">Learn from the makers of the software you use!</div>
-                    <p>
-                        The two days of workshop sessions will be an exciting
-                        lead up to the start of the conference. Workshops are
-                        an integral component of a well designed and informative
-                        conference. In our conference we aim to facilitate greater
-                        and deeper exchange of resources and information. It
-                        will also allow attendees to dig into new technologies
-                        and learn new tools and methods. They will help
-                        fulfill OSGeo’s mission of helping people learn about
-                        GeoSpatial open source projects and they will support
-                        the networking of like minded people. Workshops offer
-                        an opportunity for that special one-to-one networking
-                        of leaders and learners in the FOSS4G arena.
+        <div class="dark_grey_wrap  pt110 pb85">
+            <div class="container">
+                <div class="row">
+                    <!-- why section -->
+                    <div class="col-md-6 mb30">
+                        <h2>Workshops</h2>
+                        <div class="descr">Learn from the makers of the
+                            software you use!
+                        </div>
+                        <p>
+                            The two days of workshop sessions will be an
+                            exciting
+                            lead up to the start of the conference. Workshops
+                            are
+                            an integral component of a well designed and
+                            informative
+                            conference. In our conference we aim to facilitate
+                            greater
+                            and deeper exchange of resources and information.
+                            It
+                            will also allow attendees to dig into new
+                            technologies
+                            and learn new tools and methods. They will help
+                            fulfill OSGeo’s mission of helping people learn
+                            about
+                            GeoSpatial open source projects and they will
+                            support
+                            the networking of like minded people. Workshops
+                            offer
+                            an opportunity for that special one-to-one
+                            networking
+                            of leaders and learners in the FOSS4G arena.
 
-                    </p>
-                    <div class="btns"> <a href="#program" class="shortcode_button go_section">Program</a> <a href="#speakers" class="shortcode_button type2 go_section">Speaker</a> </div>
+                        </p>
+                        <div class="btns"><a href="#program"
+                                             class="shortcode_button go_section">Program</a>
+                            <a href="#speakers"
+                               class="shortcode_button type2 go_section">Speaker</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt9 mb35"><img
+                            src="./img/wikipedia/flood2.png" alt=""/></div>
                 </div>
-                <div class="col-md-6 pt9 mb35"> <img src="./img/wikipedia/flood2.png" alt="" /> </div>
             </div>
         </div>
-    </div>
 </div>
 </section>
 
-<!-- speakers content-->
-<section class="page_section" id="speakers" style="display:none;">
-    <div class="grey_wrap pt170 pb165">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="speaker_text">
-                        <h2>The Speakers</h2>
-                        <div class="descr">Meet the team!</div>
-                        <p>We have lined up some great lightning talks to help you
-                            pave the way to a low impact. Here are some of the speakers
-                            and event organisers! </p>
-                    </div>
-                </div>
-                <div class="col-md-8"> 
-                    <!--rhomb_block-->
-                    <div class="rhomb_block col4">
-                        <div class="odd">
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/Ismail.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>Ismail Sunni</h6>
-                                        Event Organiser </div>
-                                </div>
-                            </div>
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/default2.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>Charlotte Morgan</h6>
-                                        InaSAFE </div>
-                                </div>
-                            </div>
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/default2.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>To be annoucned</h6>
-                                        Python data processing </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="even">
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/default2.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>Yantisa Akhadi</h6>
-                                        Humanitarian OpenStreetMap Team (HOT) </div>
-                                </div>
-                            </div>
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/default2.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6></h6>
-                                        Smart City </div>
-                                </div>
-                            </div>
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/Tim.jpg" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>Tim Sutton</h6>
-                                        QGIS </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="odd">
-                            <div class="rhomb fake"></div>
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/default2.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>Linda Jones</h6>
-                                        UI Speaker </div>
-                                </div>
-                            </div>
-                            <div class="rhomb">
-                                <div class="team">
-                                    <div class="team_avatar"><img src="./img/team/default2.png" alt="" /></div>
-                                    <div class="fade_bg"></div>
-                                    <div class="team_in">
-                                        <h6>Elton Redmon</h6>
-                                        UI Speaker </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--//rhomb_block--> 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- program content-->
-<section class="page_section" id="program"> 
+<section class="page_section" id="program">
     <!--program-->
     <div class="program">
         <div class="container">
@@ -320,231 +229,398 @@
                 </div>
                 <div class="col-md-5 pt20">
                     <p>The focus of the event will be on hacking!
-                        We will include small sessions for guiding the
-                        activities of the hackfest - lightning presentations
-                        will inform you of useful tools and datasets that
-                        can be used to come up with the next great solution
-                        for reducing the impact of floods in Jakarta! </p>
+                       We will include small sessions for guiding the
+                       activities of the hackfest - lightning presentations
+                       will inform you of useful tools and datasets that
+                       can be used to come up with the next great solution
+                       for reducing the impact of floods in Jakarta! </p>
                 </div>
             </div>
             <!--program_days-->
             <div class="program_days">
                 <div class="shortcode_tabs">
                     <div class="all_heads_cont">
-                        <div class="shortcode_tab_item_title active">April 2, 2016</div>
-                        <div class="shortcode_tab_item_title active">April 3, 2016</div>
+                        <div class="shortcode_tab_item_title active">April 2,
+                            2016
+                        </div>
+                        <div class="shortcode_tab_item_title active">April 3,
+                            2016
+                        </div>
                     </div>
                     <div class="all_body_cont">
-                        <div class="shortcode_tab_item_body"> 
+                        <div class="shortcode_tab_item_body">
                             <!--April 2, 2016-->
                             <div class="reports_block">
-                                <div class="fleft"> 
+                                <div class="fleft">
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 08:00 to 9:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 08:00 to 9:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">Registration and Team Assignments</a></h5>
-                                        <h6>by <a href="javascript:void(0);">The flood hack team</a></h6>
-                                        Each person gets assigned to a team when they arrive e.g. team Thunder team Lightning etc. on a
-                                        rotational basis so that the skills get mixed evenly between teams. We try to mix people from
-                                        different organisations to encourage cross collaboration between skills and organisations. </div>
-                                    <!--//report--> 
-                                    <!--report-->
-                                    <div class="report">
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 09:00 to 9:30 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Welcome speech</a></h5>
-                                        <h6>by <a href="javascript:void(0);">The flood hack team</a></h6>
+                                        <h5><a href="javascript:void(0);">Registration
+                                            and Team Assignments</a></h5>
+                                        <h6>by <a href="javascript:void(0);">The
+                                            flood hack team</a></h6>
+                                        Each person gets assigned to a team
+                                        when they arrive e.g. team Thunder team
+                                        Lightning etc. on a
+                                        rotational basis so that the skills get
+                                        mixed evenly between teams. We try to
+                                        mix people from
+                                        different organisations to encourage
+                                        cross collaboration between skills and
+                                        organisations.
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 09:30 to 10:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 09:00 to 9:30 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">FloodHack Briefing</a></h5>
-                                        <h6>by <a href="javascript:void(0);">The flood hack team</a></h6>
-                                        We will give the participants an explanation of how the FloodHack will work.
-                                        We will explain the milestones for the event and what we expect them to produce:
+                                        <h5><a href="javascript:void(0);">Welcome
+                                            speech</a></h5>
+                                        <h6>by <a href="javascript:void(0);">The
+                                            flood hack team</a></h6>
+                                    </div>
+                                    <!--//report-->
+                                    <!--report-->
+                                    <div class="report">
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 09:30 to 10:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5><a href="javascript:void(0);">FloodHack
+                                            Briefing</a></h5>
+                                        <h6>by <a href="javascript:void(0);">The
+                                            flood hack team</a></h6>
+                                        We will give the participants an
+                                        explanation of how the FloodHack will
+                                        work.
+                                        We will explain the milestones for the
+                                        event and what we expect them to
+                                        produce:
                                         <ul>
-                                            <li>An application (web / desktop / mobile)</li>
-                                            <li>A presentation (e.g. powerpoint)</li>
-                                            <li>A dataset (e.g. some new interesting mashup of data from different sources)</li>
+                                            <li>An application (web / desktop /
+                                                mobile)
+                                            </li>
+                                            <li>A presentation (e.g.
+                                                powerpoint)
+                                            </li>
+                                            <li>A dataset (e.g. some new
+                                                interesting mashup of data from
+                                                different sources)
+                                            </li>
                                         </ul>
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 10:00 to 10:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 10:00 to 10:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">First milestone</a></h5>
-                                        <h6><a href="javascript:void(0);">Team roles decided!</a></h6>
+                                        <h5><a href="javascript:void(0);">First
+                                            milestone</a></h5>
+                                        <h6><a href="javascript:void(0);">Team
+                                            roles decided!</a></h6>
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 10:00 to 10:30 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 10:00 to 10:30 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">FloodHack Marketplace</a></h5>
-                                        <h6>by <a href="javascript:void(0);">Data and Application Specialists</a></h6>
-                                        A series of lightning talks to explain about data, APIs, or tools.
-                                        Each data or tool provider will promote their dataset as a great resource to use. </div>
-                                    <!--//report--> 
-                                    <!--report-->
-                                    <div class="report">
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 10:30 to 12:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Continue hacking</a></h5>
+                                        <h5><a href="javascript:void(0);">FloodHack
+                                            Marketplace</a></h5>
+                                        <h6>by <a href="javascript:void(0);">Data
+                                            and Application Specialists</a>
+                                        </h6>
+                                        A series of lightning talks to explain
+                                        about data, APIs, or tools.
+                                        Each data or tool provider will promote
+                                        their dataset as a great resource to
+                                        use.
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 12:00 to 12:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 10:30 to 12:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">Second milestone</a></h5>
-                                        <h6><a href="javascript:void(0);">Team workplan decided!</a></h6>
+                                        <h5><a href="javascript:void(0);">Continue
+                                            hacking</a></h5>
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 12:00 to 20:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 12:00 to 12:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">Continue hacking</a></h5>
+                                        <h5><a href="javascript:void(0);">Second
+                                            milestone</a></h5>
+                                        <h6><a href="javascript:void(0);">Team
+                                            workplan decided!</a></h6>
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 20:00 to 20:30 pm</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 12:00 to 20:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">Door Prizes</a></h5>
-                                        <h6>by <a href="javascript:void(0);">Everyone</a></h6>
-                                        We will hold a fun quiz with prizes! </div>
-                                    <!--//report--> 
-                                    <!--report-->
-                                    <div class="report">
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 20:30 to 23:59 pm</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Third milestone</a></h5>
-                                        <h6><a href="javascript:void(0);">First working prototype / demo!</a></h6>
+                                        <h5><a href="javascript:void(0);">Continue
+                                            hacking</a></h5>
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
+                                    <!--report-->
+                                    <div class="report">
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 20:00 to 20:30 pm</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5><a href="javascript:void(0);">Door
+                                            Prizes</a></h5>
+                                        <h6>by <a href="javascript:void(0);">Everyone</a>
+                                        </h6>
+                                        We will hold a fun quiz with prizes!
+                                    </div>
+                                    <!--//report-->
+                                    <!--report-->
+                                    <div class="report">
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 20:30 to 23:59 pm</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5><a href="javascript:void(0);">Third
+                                            milestone</a></h5>
+                                        <h6><a href="javascript:void(0);">First
+                                            working prototype / demo!</a></h6>
+                                    </div>
+                                    <!--//report-->
                                 </div>
                                 <!--  END OF LEFT COLUMN -->
-                                <div class="fright"> 
+                                <div class="fright">
                                     <!--report-->
                                     <div class="report">
-                                        <div class="thumb"><a href="javascript:void(0);"><img src="./img/reports/lightning-talk.png" alt="" /></a></div>
+                                        <div class="thumb"><a
+                                                href="javascript:void(0);"><img
+                                                src="./img/reports/lightning-talk.png"
+                                                alt=""/></a></div>
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 09:00 to 09:15 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 09:00 to 09:15 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">How to give a good lightning talk</a></h5>
-                                        <h6>by <a href="javascript:void(0);">The flood hack team</a></h6>
-                                        We will give some tips on how to give a good lightning talk so that you can
-                                        make the best presentation of your work possible! </div>
-                                    <!--//report--> 
-                                    <!--report-->
-                                    <div class="report">
-                                        <div class="thumb"><a href="javascript:void(0);"><img src="./img/reports/presentation.png" alt="" /></a></div>
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 09:15 to 12:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Polish and hack!</a></h5>
-                                        <h6><a href="javascript:void(0);">Wrapping up your work</a></h6>
-                                        Ok you have worked hard and made something beautiful.
-                                        Time to make in your presentations for the presentation session. </div>
-                                    <!--//report--> 
-                                    <!--report-->
-                                    <div class="report">
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 12:00 to 12:00 am</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Fourth Milestone</a></h5>
-                                        <h6><a href="javascript:void(0);">Presentations / Demo ready!</a></h6>
+                                        <h5><a href="javascript:void(0);">How
+                                            to give a good lightning talk</a>
+                                        </h5>
+                                        <h6>by <a href="javascript:void(0);">The
+                                            flood hack team</a></h6>
+                                        We will give some tips on how to give a
+                                        good lightning talk so that you can
+                                        make the best presentation of your work
+                                        possible!
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
+                                    <!--report-->
+                                    <div class="report">
+                                        <div class="thumb"><a
+                                                href="javascript:void(0);"><img
+                                                src="./img/reports/presentation.png"
+                                                alt=""/></a></div>
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 09:15 to 12:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5><a href="javascript:void(0);">Polish
+                                            and hack!</a></h5>
+                                        <h6><a href="javascript:void(0);">Wrapping
+                                            up your work</a></h6>
+                                        Ok you have worked hard and made
+                                        something beautiful.
+                                        Time to make in your presentations for
+                                        the presentation session.
+                                    </div>
+                                    <!--//report-->
                                     <!--report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 12:00 to 13:00 pm</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 12:00 to 12:00 am</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">Lunch</a></h5>
-                                        <h6><a href="javascript:void(0);">Take a short break before showing your work!</a></h6>
+                                        <h5><a href="javascript:void(0);">Fourth
+                                            Milestone</a></h5>
+                                        <h6><a href="javascript:void(0);">Presentations
+                                            / Demo ready!</a></h6>
+                                    </div>
+                                    <!--//report-->
+                                    <!--report-->
+                                    <div class="report">
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 12:00 to 13:00 pm</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5>
+                                            <a href="javascript:void(0);">Lunch</a>
+                                        </h5>
+                                        <h6><a href="javascript:void(0);">Take
+                                            a short break before showing your
+                                            work!</a></h6>
                                     </div>
                                     <!--//report-->
                                     <div class="report">
                                         <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 13:00 to 14:00 pm</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 13:00 to 14:00 pm</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
                                             <div class="clear"></div>
                                         </div>
-                                        <h5><a href="javascript:void(0);">Team Presentations</a></h5>
-                                        <h6>by <a href="javascript:void(0);">Team presenters</a></h6>
-                                        Presentations will be held in a lightning talk format. There will be a
-                                        strict time limit of 5 minutes per presentation after which the presenter
-                                        goes blank! So make sure to rehearse your presentation well and use the
-                                        tips we give you in the lightning talk how-to session! </div>
-                                    <!--//report-->
-                                    <div class="report">
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 14:00 to 14:30 pm</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Door Prizes</a></h5>
-                                        <h6><a href="javascript:void(0);"></a></h6>
-                                        Last chance to take home some cool FloodHack swag! </div>
-                                    <!--//report--> 
-                                    <!--//report-->
-                                    <div class="report">
-                                        <div class="info">
-                                            <div class="fleft"> <span><i class="fa fa-clock-o"></i> 14:00 to 14:30 pm</span> </div>
-                                            <div class="fright"> <span><a href="javascript:void(0);"><i class="fa fa-map-marker"></i> Smart City</a></span> </div>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <h5><a href="javascript:void(0);">Closing</a></h5>
-                                        <h6><a href="javascript:void(0);">Big thanks to everyone!</a></h6>
+                                        <h5><a href="javascript:void(0);">Team
+                                            Presentations</a></h5>
+                                        <h6>by <a href="javascript:void(0);">Team
+                                            presenters</a></h6>
+                                        Presentations will be held in a
+                                        lightning talk format. There will be a
+                                        strict time limit of 5 minutes per
+                                        presentation after which the presenter
+                                        goes blank! So make sure to rehearse
+                                        your presentation well and use the
+                                        tips we give you in the lightning talk
+                                        how-to session!
                                     </div>
-                                    <!--//report--> 
+                                    <!--//report-->
+                                    <div class="report">
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 14:00 to 14:30 pm</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5><a href="javascript:void(0);">Door
+                                            Prizes</a></h5>
+                                        <h6><a href="javascript:void(0);"></a>
+                                        </h6>
+                                        Last chance to take home some cool
+                                        FloodHack swag!
+                                    </div>
+                                    <!--//report-->
+                                    <!--//report-->
+                                    <div class="report">
+                                        <div class="info">
+                                            <div class="fleft"><span><i
+                                                    class="fa fa-clock-o"></i> 14:00 to 14:30 pm</span>
+                                            </div>
+                                            <div class="fright"><span><a
+                                                    href="javascript:void(0);"><i
+                                                    class="fa fa-map-marker"></i> Smart City</a></span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <h5><a href="javascript:void(0);">Closing</a>
+                                        </h5>
+                                        <h6><a href="javascript:void(0);">Big
+                                            thanks to everyone!</a></h6>
+                                    </div>
+                                    <!--//report-->
                                 </div>
                             </div>
-                            <div class="fright"> </div>
+                            <div class="fright"></div>
                             <div class="clear"></div>
                         </div>
                     </div>
@@ -580,28 +656,53 @@
                     <div class="descr"></div>
                     <div>
                         <ol>
-                            <li>All participant will be split into several team (max 6 people) based on their roles</li>
+                            <li>All participant will be split into several team
+                                (max 6 people) based on their roles
+                            </li>
                             <li>Roles in each team:
                                 <ol>
-                                    <li>One team presenter / representative</li>
-                                    <li>At least 1 designer / visualisation expert</li>
+                                    <li>One team presenter / representative
+                                    </li>
+                                    <li>At least 1 designer / visualisation
+                                        expert
+                                    </li>
                                     <li>At least 1 data experts</li>
                                     <li>At least 1 developer</li>
                                 </ol>
                             </li>
-                            <li>The role is decided based on the registration data</li>
+                            <li>The role is decided based on the registration
+                                data
+                            </li>
                             <li>Participants can produce one of these project:
                                 <ol>
-                                    <li>An application (web / desktop / mobile)</li>
+                                    <li>An application (web / desktop /
+                                        mobile)
+                                    </li>
                                     <li>A presentation (e.g. powerpoint)</li>
-                                    <li>A dataset (e.g. some new interesting mashup of data from different sources)</li>
+                                    <li>A dataset (e.g. some new interesting
+                                        mashup of data from different sources)
+                                    </li>
                                 </ol>
                             </li>
-                            <li>All participant must open and publish their project (e.g. via github.com, slideshare.net, etc)</li>
-                            <li>All team must present their project in the end of FloodHack</li>
-                            <li>All participant must keep the FloodHack venue clean and tidy</li>
-                            <li>All participant must not disturb another participant, and follow <a href="http://hackcodeofconduct.org">http://hackcodeofconduct.org</a></li>
-                            <li>By participating the FloodHack, all participants agreed to give public license / creative common license for the project they have created</li>
+                            <li>All participant must open and publish their
+                                project (e.g. via github.com, slideshare.net,
+                                etc)
+                            </li>
+                            <li>All team must present their project in the end
+                                of FloodHack
+                            </li>
+                            <li>All participant must keep the FloodHack venue
+                                clean and tidy
+                            </li>
+                            <li>All participant must not disturb another
+                                participant, and follow <a
+                                        href="http://hackcodeofconduct.org">http://hackcodeofconduct.org</a>
+                            </li>
+                            <li>By participating the FloodHack, all
+                                participants agreed to give public license /
+                                creative common license for the project they
+                                have created
+                            </li>
                             <li>Don’t forget to have fun</li>
                         </ol>
                     </div>
@@ -613,100 +714,46 @@
 
 <!-- Contact content -->
 <section class="page_section" id="contact" class="dark_grey_wrap">
-<div class="container pt110 pb52">
-    <div class="row">
-        <div class="col-md-7">
-            <h2>Contact Us</h2>
-            <div class="descr">Where to go and who to contact</div>
-        </div>
-        <div class="col-md-5 pt16">
-            <p>Ismail Sunni is the main point of contact for the flood hack event - please feel free to contact him should you have any questions.</p>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="icon_box">
-                <div class="icon_img"><img src="./img/icons/5.png" alt="" /></div>
-                <h6>Address</h6>
-                <p> BPBD Provinsi DKI Jakarta </p>
-                <p> Balaikota Blok H lantai 14, jalan Kebon Sirih 18 Jakarta Pusat, DKI Jakarta. </p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="icon_box">
-                <div class="icon_img"><img src="./img/icons/6.png" alt="" /></div>
-                <h6>Email</h6>
-                <p><a href="mailto:#">foss4gdar@gmail.com</a></p>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="icon_box">
-                <div class="icon_img"><img src="./img/icons/7.png" alt="" /></div>
-                <h6>Phone</h6>
-                <p>+ 62 813 2861 7492</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="module_google_map" style="display:none;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6151825602956!2d106.82654155061107!3d-6.182229562275676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42e10e365ff%3A0x6e3aac73cfbe1a87!2sBPBD+PROVINSI+DKI+JAKARTA!5e0!3m2!1sen!2sus!4v1457518219034" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen height="400">
-    </iframe>
-</div>
-</section>
-<!-- Registration content -->
-<section class="page_section" id="register">
     <div class="container pt110 pb52">
         <div class="row">
             <div class="col-md-7">
-                <h2>Registration</h2>
-                <div class="descr">Registration is free!</div>
+                <h2>Contact Us</h2>
+                <div class="descr">Where to go and who to contact</div>
             </div>
             <div class="col-md-5 pt16">
-                <p>FloodHack is a community project to help reduce the impact of floods in Jakarta. We need
-                    you to register so that we can cater for enough people. Please let us know if you
-                    will know longer be able to make it so that we don't waste food.</p>
-            </div>
-            <div class="col-md-9 pt11">
-                <ol>
-                    <li>Registration and participation are free (travel expense is not covered)</li>
-                    <li>All participant must register per person here from 8 March 2016 to 28 March 2016</li>
-                    <li>There will be a selection for all registrants based on the registration’s input</li>
-                    <li>The selected participants will be announced and contacted on 29 March 2016</li>
-                    <li>Selected participants must give confirmation for attending the event.</li>
-                    <li>Selected participants who do not confirm or can’t attend the event, will be replaced by other registrants</li>
-                </ol>
+                <p>Ismail Sunni is the main point of contact for the flood hack
+                    event - please feel free to contact him should you have any
+                    questions.</p>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="contact_form">
-            <div id="note"></div>
-            <div id="fields">
-                <h4>Registration has been closed.</h4>
-                <p> We will send email to all registrants, both selected and not selected. If you are selected, this email will also contains further information about the #FloodHack event.
-                    If you have registered and haven't got any email by 30 March 2016, please contact ismail@kartoza.com. </p>
-                <p> See you on the event. </p>
-                <!-- <iframe src="https://docs.google.com/forms/d/1YhHoyz3w7bBS2IT9Dn9kajQVARHMMLAsfLXx94OtaAU/viewform?embedded=true" style="top:0px;width:100%;height:1000px" marginheight="0" marginwidth="0">Loading...</iframe> --> 
-            </div>
-        </div>
-    </div>
-</section>
-<section class="page_section" id="api">
-    <div class="container pt110 pb52">
         <div class="row">
-            <div class="col-md-7">
-                <h2>API</h2>
-                <div class="descr">There will be a lighting talks to explain about these API in the FloodHack event.</div>
+            <div class="col-md-4">
+                <div class="icon_box">
+                    <div class="icon_img"><img src="./img/icons/5.png" alt=""/>
+                    </div>
+                    <h6>Address</h6>
+                    <p> BPBD Provinsi DKI Jakarta </p>
+                    <p> Balaikota Blok H lantai 14, jalan Kebon Sirih 18
+                        Jakarta Pusat, DKI Jakarta. </p>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="contact_form">
-            <div id="note"></div>
-            <div id="fields">
-                <iframe src="https://docs.google.com/document/d/18SeDyc1b5TkTtuDmBEHwnhnXta1pNeiRDAaJdXdRpuc/edit?usp=sharing&embedded=true" style="top:0px;width:100%;height:1000px" marginheight="0" marginwidth="0">Loading...</iframe>
+            <div class="col-md-4">
+                <div class="icon_box">
+                    <div class="icon_img"><img src="./img/icons/6.png" alt=""/>
+                    </div>
+                    <h6>Email</h6>
+                    <p><a href="mailto:#">foss4gdar@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="icon_box">
+                    <div class="icon_img"><img src="./img/icons/7.png" alt=""/>
+                    </div>
+                    <h6>Phone</h6>
+                    <p>+ 62 813 2861 7492</p>
+                </div>
             </div>
         </div>
     </div>
@@ -724,73 +771,117 @@
                 </div>
                 <div class="col-md-7">
                     <div class="partners">
-                        <div class="partner"> <a href="javascript:void(0);">
+                        <div class="partner"><a href="javascript:void(0);">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/jaya-raya.png" alt="DKI Jakarta" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/jaya-raya.png"
+                                        alt="DKI Jakarta"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="http://bpbd.jakarta.go.id" target="_blank">
+                        </a></div>
+                        <div class="partner"><a
+                                href="http://bpbd.jakarta.go.id"
+                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/BPBD-logo.png" alt="BPBD DKI Jakarta" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/BPBD-logo.png"
+                                        alt="BPBD DKI Jakarta"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="javascript:void(0);">
+                        </a></div>
+                        <div class="partner"><a href="javascript:void(0);">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/dmi-logo.png" alt="DMInnovation" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/dmi-logo.png"
+                                        alt="DMInnovation"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="http://smartcity.jakarta.go.id" target="_blank">
+                        </a></div>
+                        <div class="partner"><a
+                                href="http://smartcity.jakarta.go.id"
+                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/JSC-new.png" alt="Jakarta Smart City" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/JSC-new.png"
+                                        alt="Jakarta Smart City"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="http://kartoza.com" target="_blank">
+                        </a></div>
+                        <div class="partner"><a href="http://kartoza.com"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/kartoza-logo2.png" alt="Kartoza" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/kartoza-logo2.png"
+                                        alt="Kartoza"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="http://inasafe.org" target="_blank">
+                        </a></div>
+                        <div class="partner"><a href="http://inasafe.org"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/inasafe-logo.png" alt="InaSAFE" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/inasafe-logo.png"
+                                        alt="InaSAFE"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="https://hotosm.org" target="_blank">
+                        </a></div>
+                        <div class="partner"><a href="https://hotosm.org"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/hot-logo.png" alt="HOT OSM" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/hot-logo.png"
+                                        alt="HOT OSM"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="https://www.qgis.org" target="_blank">
+                        </a></div>
+                        <div class="partner"><a href="https://www.qgis.org"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/QGis_Logo.png" alt="QGIS" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/QGis_Logo.png"
+                                        alt="QGIS"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="http://ldlab.ifs.tuwien.ac.at" target="_blank">
+                        </a></div>
+                        <div class="partner"><a
+                                href="http://ldlab.ifs.tuwien.ac.at"
+                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/ldlab_tuwien_crop.png" alt="Linked Data Lab - TU Wien" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/ldlab_tuwien_crop.png"
+                                        alt="Linked Data Lab - TU Wien"/></span>
+                                </div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="https://www.gfdrr.org" target="_blank">
+                        </a></div>
+                        <div class="partner"><a href="https://www.gfdrr.org"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/WBG-GFDRR.png" alt="WorldBank - GFDRR" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/WBG-GFDRR.png"
+                                        alt="WorldBank - GFDRR"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="http://dfat.gov.au/geo/indonesia/development-assistance/Pages/disaster-risk-management-in-indonesia.aspx" target="_blank">
+                        </a></div>
+                        <div class="partner"><a
+                                href="http://dfat.gov.au/geo/indonesia/development-assistance/Pages/disaster-risk-management-in-indonesia.aspx"
+                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/AustralianAid.jpg" alt="Australian Aid" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/AustralianAid.jpg"
+                                        alt="Australian Aid"/></span></div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="https://smart.uow.edu.au/index.html" target="_blank">
+                        </a></div>
+                        <div class="partner"><a
+                                href="https://smart.uow.edu.au/index.html"
+                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/SmartStackedHybridPmsInt.jpg" alt="Smart Infrastructure Facility" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/SmartStackedHybridPmsInt.jpg"
+                                        alt="Smart Infrastructure Facility"/></span>
+                                </div>
                             </div>
-                            </a> </div>
-                        <div class="partner"> <a href="https://" target="_blank">
+                        </a></div>
+                        <div class="partner"><a href="https://"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/geo-kotak.png" alt="Geo" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/geo-kotak.png"
+                                        alt="Geo"/></span></div>
                             </div>
-                            </a> </div>
-                        
-                        <!-- // partners --> 
+                        </a></div>
+
+                        <!-- // partners -->
                     </div>
                 </div>
             </div>
@@ -804,28 +895,40 @@
                 <div class="col-md-5">
                     <div class="welcome_text">
                         <h2>Sponsors</h2>
-                        <div class="descr">We are extremely grateful to our sponsors who have funded prizes and goodies for the participants. Thank you, thank you, thank you!</div>
+                        <div class="descr">We are extremely grateful to our
+                            sponsors who have funded prizes and goodies for the
+                            participants. Thank you, thank you, thank you!
+                        </div>
                         <p></p>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="partners">
-                        <div class="partner"> <a href="http://www.rensus.co" target="_blank">
+                        <div class="partner"><a href="http://www.rensus.co"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/RENSUS.svg" alt="Rensus Sepatu Hujan" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/RENSUS.svg"
+                                        alt="Rensus Sepatu Hujan"/></span>
+                                </div>
                             </div>
-                            </a> </div>
+                        </a></div>
                         <div class="partner">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/dmi-logo.png" alt="DMInnovation" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/dmi-logo.png"
+                                        alt="DMInnovation"/></span></div>
                             </div>
                         </div>
-                        <div class="partner"> <a href="https://www.gfdrr.org" target="_blank">
+                        <div class="partner"><a href="https://www.gfdrr.org"
+                                                target="_blank">
                             <div>
-                                <div> <span class="icon"><img src="./img/sponsors/WBG-GFDRR.png" alt="WorldBank - GFDRR" /></span> </div>
+                                <div><span class="icon"><img
+                                        src="./img/sponsors/WBG-GFDRR.png"
+                                        alt="WorldBank - GFDRR"/></span></div>
                             </div>
-                            </a> </div>
-                        <!-- // partners --> 
+                        </a></div>
+                        <!-- // partners -->
                     </div>
                 </div>
             </div>
@@ -835,23 +938,29 @@
 
 <!--footer-->
 <div class="footer">
-    <div class="container"> <a href="#home" class="go_section"><img src="./img/logo.png" width="175" height="31" alt="floodhack logo"/></a>
+    <div class="container"><a href="#home" class="go_section"><img
+            src="./img/logo.png" width="175" height="31" alt="floodhack logo"/></a>
         <div class="socials">
             <ul>
-                <li><a target="_blank" href="https://facebook.com/FloodHack-2016-1141760975847497" class="fb_icon">Facebook</a></li>
-                <li><a target="_blank" href="https://twitter.com/floodhack2016#" class="tweet_icon">Twitter</a></li>
+                <li><a target="_blank"
+                       href="https://facebook.com/FloodHack-2016-1141760975847497"
+                       class="fb_icon">Facebook</a></li>
+                <li><a target="_blank"
+                       href="https://twitter.com/floodhack2016#"
+                       class="tweet_icon">Twitter</a></li>
             </ul>
         </div>
-        &copy; Copyright 2016 FloodHack.org. All Rights Reserved. </div>
+        &copy; Copyright 2016 FloodHack.org. All Rights Reserved.
+    </div>
 </div>
 <!--//footer-->
 
 </div>
 <!-- //wrapper -->
 <header class="fixed-menu"></header>
-<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
-<script type="text/javascript" src="js/modules.js"></script> 
-<script type="text/javascript" src="js/current.js"></script> 
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/modules.js"></script>
+<script type="text/javascript" src="js/current.js"></script>
 <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 </body>
 </html>
