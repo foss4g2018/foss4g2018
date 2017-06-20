@@ -6,5 +6,5 @@ You can view an 'always up to date' version of any content in this repo
 The live site is at [http://2018.foss4g.org](http://2018.foss4g.org). 
 The live site will not always be in sync with this repo - we will push to it periodically.
 
-Contact @timlinux if you want to amek any changes to the web site.
+Contact @timlinux if you want to make any changes to the web site.
 
