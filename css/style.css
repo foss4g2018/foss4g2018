@@ -1240,6 +1240,11 @@ textarea:focus:-ms-input-placeholder {
 	text-align:center;
 	margin-bottom:15px;
 }
+
+.bank_logo {
+position: center;
+	margin-top: 50px;
+}
 /* FAQ */
 .question {
     font-weight: bold;
