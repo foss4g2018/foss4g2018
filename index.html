@@ -6,21 +6,36 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 <link href="css/plugins.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="./img/favicon.ico">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700" rel="stylesheet"> 
 <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 </head>
 
 <body class="animated" data-animated="fadeIn">
+<script>
+	$(document).ready(function(){
+		  $('.speakers-slider').slick({
+			  infinite: true,
+  		      slidesToShow: 4,
+  			  slidesToScroll: 1,
+			  prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+			  nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+      });
+	 });
+</script>
 <div class="wrapper">
     <!-- header section -->
     <section id="top">
         <header>
             <div class="container">
                 <!-- logo -->
-                <div id="logo"> <a href="#home"><img src="./img/floodhack-logo-top.png" width="350" height="61" alt="logo" /></a> </div>
+                <div id="logo"> <a href="#home"><img src="./img/FOSSG42018logo.svg" width="246" height="70" alt="logo" /></a> </div>
                 <!-- menu -->
                 <nav class="navmenu">
                     <ul>
@@ -48,10 +63,10 @@
                     <li> <img src="./img/backgrounds/dar_from_the_air.jpg" alt="" class="slide_bg" />
                         <div class="full_slider_caption">
                             <div class="container">
-                                <h2 style="color: white;">#foss4g2018</h2>
-                                <p style="color: white;">28, 29 August 2018 : Workshops</p>
-                                <p style="color: white;">30, 31, August, 1 September 2018 : Three day main conference</p>
-                                <p style="color: white;">2, 3 September 2018 : Code sprints and community events</p>
+                                <h2 style="color: white;font-size: 72px; text-transform: uppercase;font-weight: bold">#foss4g2018</h2>
+                                <p style="color: white;text-transform: uppercase;"><strong>28, 29 August 2018</strong> : Workshops<br>
+                                <strong>30, 31, August, 1 September 2018</strong> : Three day main conference<br>
+                                <strong>2, 3 September 2018</strong> : Code sprints and community events</p>
                                 <div class="global_count_wrapper">
                                     <script>
                       jQuery(function () {
@@ -64,21 +79,27 @@
                     </script>
                                     <div id="countdown"></div>
                                 </div>
-                                <div class="shortcode_button"><a href="https://www.eventbrite.com/e/foss4g-2018-dar-es-salaam-tickets-36995828519""#results" style="color:#fff;">Book your tickets, don't miss the GIS event of the year!</a></div>
+                                <div><a href="https://www.eventbrite.com/e/foss4g-2018-dar-es-salaam-tickets-36995828519""#results"  class="shortcode_button">Book your tickets, don't miss the GIS event of the year!</a></div>
+                                <div class="announce"><a href="#" class="">The special rate for early bird and entrance for Foss4g2018 is available until 31th December 2017</a></div>
                             </div>
                         </div>
+                        <div class="dark-bg"></div>
+                        <div class="green-bg"></div>
                     </li>
                 </ul>
             </div>
             <a href="#conference" class="next_section hide"></a> </div>
+            
         <!--//Slider-->
     </section>
 
     <section class="page_section" id="about">
-        <div class="pt130 pb123">
+        <div class="inner">
             <div class="container">
                 <div class="row">
                     <!-- Welcome Text -->
+                    <div class="col-md-8 col-md-offset-2">
+                    <div class="entry-content">
                     <h2>About</h2>
                     <p>A FOSS4G event can catalyse the geo community in the host country.
                         Now is the time for Africa! Free and open source software in Sub-Saharan
@@ -91,23 +112,38 @@
                         well as the Middle East and Arabian Peninsula and Indian subcontinent and
                         so taps into a new 'impact zone' for OSGeo. </p>
                     <div style="clear: both;"></div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- conference content-->
-    <section class="page_section" id="vision">
-        <div class="grey_wrap pt130 pb123">
+    <section class="page_section triangle" id="vision"  style="background-image: url(img/backgrounds/mapping.png)">
+        <div class="inner">
+           <div class="overlay-top" style="background-image: url(img/bgs/tri-blue.svg)"></div>
             <div class="container">
                 <div class="row">
                     <!-- Welcome Text -->
-                    <div class="col-md-6">
+                    <div class="col-sm-6 col-sm-offset-6">
                         <div class="welcome_text">
                             <h2>Vision</h2>
-                            <div class="descr">Build and share the potential of
-                                Africa with the World!
-                            </div>
-                            <p>
+                            <div class="descr">Build and share the potential of Africa with the World!</div>                           
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+             <div class="overlay-bottom" style="background-image: url(img/bgs/tri-white.svg)"></div>
+		</div>
+	</section>
+    <section class="page_section">       
+          <div class="inner"> 
+            <div class="container">
+           	 <div class="row">
+           	 	<div class="col-md-8 col-md-offset-2">
+           	 	<div class="entry-content">
+            	 <p>
                                 Our vision is for an accessible and inclusive
                                 FOSS4G that complements
                                 the existing OSGeo stable while empowering the
@@ -140,24 +176,20 @@
                                 locally and strengthen the international
                                 community .
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="./img/backgrounds/mapping.png" alt=""/></div>
-                </div>
+                            </div>
+                      </div>
+				</div>
             </div>
         </div>
-        <div class="dark_grey_wrap  pt110 pb85" id="program">
+        <div class="dark_blue_wrap" id="program">
             <div class="container">
-                <div class="col-md-6 pt9 mb35"><img
-                        src="./img/backgrounds/mapping2.png" alt=""/></div>
                 <div class="row">
                     <!-- why section -->
-                    <div class="col-md-6 mb30">
+                    <div class="col-md-10 col-md-offset-1 text-center">
                         <h2>Workshops</h2>
-                        <div class="descr">Learn from the makers of the
-                            software you use!
+                        <div class="descr">Learn from the makers of the software you use!
                         </div>
+                        <div class="entry-content">
                         <p>
                             The two days of workshop sessions will be an
                             exciting
@@ -183,26 +215,84 @@
                             of leaders and learners in the FOSS4G arena.
 
                         </p>
-                        <div class="btns"><a href="#program"
-                                             class="shortcode_button go_section">Program</a>
-                            <a href="#speakers"
-                               class="shortcode_button type2 go_section">Speaker</a>
+                        <div class="btns"><a href="#program" class="shortcode_button go_section">Program</a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="speakers page_section" id="speakers">
+    <div class="inner">
+    <div class="container">
+                <div class="row">
+    	<h2 class="text-center">Speakers</h2>
+    	<div class="speakers-slider">
+    	<div class="speaker">
+    		<div class="photo">
+    			<img src="img/speakers/speaker-1.jpg" alt="Speaker" width="96" height="96">
+    		</div>
+    		<div class="name">Name</div>
+    		<div class="topic">Topic</div>
+    	</div>
+    	<div class="speaker">
+    		<div class="photo">
+    			<img src="img/speakers/speaker-2.jpg" alt="Speaker" width="96" height="96">
+    		</div>
+    		<div class="name">Name</div>
+    		<div class="topic">Topic</div>
+    	</div>
+    	<div class="speaker">
+    		<div class="photo">
+    			<img src="img/speakers/speaker-3.jpg" alt="Speaker" width="96" height="96">
+    		</div>
+    		<div class="name">Name</div>
+    		<div class="topic">Topic</div>
+    	</div>
+    	<div class="speaker">
+    		<div class="photo">
+    			<img src="img/speakers/speaker-4.jpg" alt="Speaker" width="96" height="96">
+    		</div>
+    		<div class="name">Name</div>
+    		<div class="topic">Topic</div>
+    	</div>
+    	<div class="speaker">
+    		<div class="photo">
+    			<img src="img/speakers/speaker-5.jpg" alt="Speaker" width="96" height="96">
+    		</div>
+    		<div class="name">Name</div>
+    		<div class="topic">Topic</div>
+    	</div>
+    	</div>
+		</div>
+		</div>
+		</div>
+    </section>
     <!-- conference content-->
-    <section class="page_section" id="conference">
-        <div class="grey_wrap pt130 pb123">
+    <section class="page_section triangle" id="conference" style="background-image: url(img/backgrounds/beach.png)">
+        <div class="inner">
+           <div class="overlay-top" style="background-image: url(img/bgs/tri-blue.svg)"></div>
             <div class="container">
                 <div class="row">
                     <!-- Welcome Text -->
-                    <div class="col-md-6">
+                    <div class="col-sm-6 col-sm-offset-6">
                         <div class="welcome_text">
                             <h2>Conference</h2>
                             <div class="descr">An action packed conference programme!</div>
+                            </div>
+                    </div>
+                 
+                </div>
+            </div>
+             <div class="overlay-bottom" style="background-image: url(img/bgs/tri-white.svg)"></div>
+		</div>
+	</section>
+    <section class="page_section">       
+          <div class="inner"> 
+            <div class="container">
+           	 <div class="row">
+           	 	<div class="col-md-8 col-md-offset-2">
+           	 	<div class="entry-content">
                             <p>
                                 The most important ingredient to a successful conference
                                 is the right group of attendees and program content — both
@@ -213,21 +303,36 @@
                                 the international sustainable development agenda - the 2030
                                 UN Sustainable Development Goals (SDGs).
                             </p>
-                        </div>
-                    </div>
-                    <!-- Image -->
-                    <div class="col-md-6"> <img src="./img/backgrounds/beach.png" alt="" /> </div>
-                </div>
+                       </div>
+				</div>
             </div>
         </div>
-        <div class="dark_grey_wrap  pt110 pb85">
+		</div>
+	</section>
+     <section class="page_section triangle" id="conference" style="background-image: url(img/backgrounds/sunset.png)">
+        <div class="inner">
+           <div class="overlay-top" style="background-image: url(img/bgs/tri-blue.svg)"></div>
             <div class="container">
                 <div class="row">
-                    <!-- why section -->
-                    <div class="col-md-6 pt9 mb35"> <img src="./img/backgrounds/sunset.png" alt="" /> </div>
-                    <div class="col-md-6 mb30">
-                        <h2>Why Dar es Salaam?</h2>
+                    <!-- Welcome Text -->
+                    <div class="col-sm-6 col-sm-offset-6">
+                        <div class="welcome_text">
+                            <h2>Why Dar es Salaam?</h2>
                         <div class="descr">Bringing Africa to FOSS4G</div>
+                         </div>
+                    </div>
+                 
+                </div>
+            </div>
+             <div class="overlay-bottom" style="background-image: url(img/bgs/tri-white.svg)"></div>
+		</div>
+	</section>
+    <section class="page_section">       
+          <div class="inner"> 
+            <div class="container">
+           	 <div class="row">
+           	 	<div class="col-md-8 col-md-offset-2">
+           	 	<div class="entry-content">
                         <p>
                             As one of Africa’s fastest growing cities, Dar es
                             Salaam is a hub for innovation and experimentation,
@@ -260,7 +365,7 @@
                             around $800, with some stopping via Arusha for Mount
                             Kilimanjaro, the tallest mountain in Africa and the
                             Ngorongoro Crater.</p>
-                        <p>To summarise:</p>
+                        <p><strong>To summarise:</strong></p>
                         <ul>
                             <li>
                                 The centre of technological innovation, social
@@ -288,106 +393,141 @@
                             city or the country but would reverberate throughout
                             the region, catalysing our community and leaving a
                             legacy for the next generation. </p>
-                        <div class="btns"> <a href="#program" class="shortcode_button go_section">Program</a> <a href="#speakers" class="shortcode_button type2 go_section">Speaker</a> </div>
-                    </div>
-                </div>
+                        <div class="btns"> <a href="#program" class="shortcode_button go_section">Program</a> </div>
+                     </div>
+				</div>
             </div>
         </div>
-    </div>
-</section>
+		</div>
+	</section>
 
 <section id="sponsors">
     <div class="container pt110 pb52">
         <div class="container ">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-8 col-md-offset-2">
                     <div class="welcome_text">
                         <h2>Sponsors</h2>
-                        <div class="descr"></div>
-                        <p></p>
+                        
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <div class="partners">
-                        <div class="partner">
+			</div>
+              <div class="sponsor-group">
+                   <h3>Diamond sponsors</h3>
+               <div class="row">              
+                   
+                    
+                        <div class="partner col-md-2 col-sm-3 col-xs-4">
                             <a href="javascript:void(0);">
-                                <div>
-                                    <div> <span class="icon"><img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/></span> </div>
-                                </div>
+                               
+                                    <img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/>
+                                
                             </a>
                         </div>
-                          <!-- <div class="partner">
+                         <div class="partner col-md-2 col-sm-3  col-xs-4">
                             <a href="javascript:void(0);">
-                             <div>
-                                    <div> <span class="icon"><img src="./img/Put_your_logo_here.png" alt="Your logo here" alt="The World Bank" /></span> </div>
-
+                               
+                                    <img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/>
+                                
                             </a>
-                        </div></div> -->
-                        <!-- // partners -->
-                    </div>
+                        </div>
+                        <div class="partner col-md-2 col-sm-3 col-xs-4">
+                            <a href="javascript:void(0);">
+                               
+                                    <img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/>
+                                
+                            </a>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="sponsor-group">
+                   <h3>Platinum sponsors</h3>
+               <div class="row">              
+                   
+                    
+                        <div class="partner col-md-2 col-sm-3 col-xs-4">
+                            <a href="javascript:void(0);">
+                               
+                                    <img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/>
+                                
+                            </a>
+                        </div>
+                         <div class="partner col-md-2 col-sm-3 col-xs-4">
+                            <a href="javascript:void(0);">
+                               
+                                    <img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/>
+                                
+                            </a>
+                        </div>
+                        <div class="partner col-md-2 col-sm-3 col-xs-4">
+                            <a href="javascript:void(0);">
+                               
+                                    <img src="./img/Put_your_logo_here_faint.png" alt="Your logo here"/>
+                                
+                            </a>
+                        </div>
+                    
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<footer class="content-info" role="contentinfo">
+    <section class="block lets-connect">
+        <div class="container">
+            <h3 class="title title-h2">Contact us</h3>
+            <div class="row">
 
-<!-- Contact content -->
-<section class="page_section grey_wrap pt130 pb123" id="contact">
-    <div class="container grey_wrap pt130 pb123">
-        <div class="row">
-            <div class="col-md-7">
-                <h2>Contact Us</h2>
-            </div>
-            <div class="col-md-5 pt16">
-                <p></p>
-            </div>
-        </div>
-    </div>
-    <div class="grey_wrap pt130 pb123">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="icon_box">
-                    <div class="icon_img"><img src="./img/icons/5.png" alt="" /></div>
-                    <h6>Address</h6>
-                    <p>Julius Nyerere International Convention Centre</p>
-                    <p>Dar es Salaam</p>
+                <div class="col-lg-6 col-md-7">
+                    <section class="subscriptions">
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Address</strong><br>
+                         Julius Nyerere International Convention Centre<br>
+Dar es Salaam</p>   
+                    </section>
+                    <section class="subscriptions">
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i> <strong>Email</strong><br>
+                        foss4gdar@gmail.com</p>   
+                    </section>
+                </div>
+                <div class="col-lg-6 col-md-4">
+                    <section class="social-media">
+                        <p><strong>Find us on</strong></p>
+                        <ul class="social list-inline">
+            <li><a href="https://www.facebook.com/Foss4g2018/?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/foss4g2018#"><i class="fa fa-twitter" aria-hidden="true"></i></span></a></li>
+    </ul>
+                    </section>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="icon_box">
-                    <div class="icon_img"><img src="./img/icons/6.png" alt="" /></div>
-                    <h6>Email</h6>
-                    <p><a href="mailto:foss4gdar@gmail.com">foss4gdar@gmail.com</a></p>
-                </div>
-            </div>
-            <!--<div class="col-md-4">
-                <div class="icon_box">
-                    <div class="icon_img"><img src="./img/icons/7.png" alt="" /></div>
-                    <h6>Phone</h6>
-                    <p>+1 11 111 1111</p>
-                </div>-->
-            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="block colophon">
+        <div class="container">
+            
+                <p>© Copyright 2018.foss4g.org. All Rights Reserved. </p>
+
+                
+            
+        </div>
+    </section>
+    <div class="compass-footer"></div>
+	</footer>
+
+<!--Contact content -->
+<section class="" id="contact">
+
+
+
     <div class="module_google_map" style="display:none;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6151825602956!2d106.82654155061107!3d-6.182229562275676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42e10e365ff%3A0x6e3aac73cfbe1a87!2sBPBD+PROVINSI+DKI+JAKARTA!5e0!3m2!1sen!2sus!4v1457518219034" width="80%" height="450" frameborder="0" style="border:0" allowfullscreen height="400">
         </iframe>
     </div>
-</section>
+</section> 
 
-<!--footer-->
-<div class="footer">
-    <div class="container"> <a href="#home" class="go_section"><img src="./img/logo.png" width="125" height="100" alt="logo"/></a>
-        <div class="socials">
-            <ul>
-                <li><a target="_blank" href="https://www.facebook.com/Foss4g2018/?ref=bookmarks" class="fb_icon">Facebook</a></li>
-                <li><a target="_blank" href="https://twitter.com/foss4g2018#" class="tweet_icon">Twitter</a></li>
-            </ul>
-        </div>
-        &copy; Copyright 2018.foss4g.org. All Rights Reserved. </div>
-</div>
-<!--//footer-->
+
 
 </div>
 <!-- //wrapper -->
