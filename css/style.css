@@ -59,7 +59,7 @@ body {
 .wrapper {overflow:hidden;
 }
 a {
-	color: #666666;
+	color: #4eb4e4;
 	text-decoration:none !important;
 }
 a:hover { color: #2980b9;
@@ -373,6 +373,9 @@ h2 {
 .page_section .inner {
 	padding: 62px 0;
 }
+.page_section.header {
+	margin-top: 90px;
+}
 .page_section.triangle {
 	background-position: center center;
     background-repeat: no-repeat;
@@ -418,6 +421,14 @@ h2 {
 }
 .blue_wrap {
 	background:#287db3;
+}
+.page_section.common h2 {
+	margin-top: 30px;
+	
+}
+.page_section.common ul {
+	margin-bottom: 10px;
+	padding-left: 20px;
 }
 .dark_blue_wrap {
 	background:#287db3;
