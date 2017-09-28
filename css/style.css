@@ -318,7 +318,7 @@ box-shadow:         0px 0px 16px 0px rgba(38, 38, 38, 0.5);
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	margin: 20px auto 0 auto;
-	width: 70%;
+	
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(38, 38, 38, 0.5);
 -moz-box-shadow:    0px 0px 16px 0px rgba(38, 38, 38, 0.5);
 box-shadow:         0px 0px 16px 0px rgba(38, 38, 38, 0.5);
@@ -369,6 +369,15 @@ h2 {
   font-family: "Sintony","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
 	line-height: 24px;
+}
+.entry-content table {
+	border: 1px solid #4eb4e4;
+	margin-bottom: 30px;
+}
+.entry-content table td {
+	border: 1px solid #4eb4e4;
+	padding: 5px 7px;
+	font-size: 14px;
 }
 .page_section .inner {
 	padding: 62px 0;
