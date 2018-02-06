@@ -32,37 +32,8 @@
 
 <body class="animated" data-animated="fadeIn">
 <div class="wrapper">
-    <!-- header section -->
-    <section id="top">
-        <header>
-            <div class="container">
-                <!-- logo -->
-                <div id="logo"><a href="index.html"><img
-                        src="./img/FOSSG42018logo.svg" width="246" height="70"
-                        alt="logo"/></a></div>
-                <!-- menu -->
-                <nav class="navmenu">
-                    <ul>
-                        <!-- <li class="scrollable active"><a href="#home">Home</a></li> -->
-                        <li class="scrollable"><a href="#about">About</a></li>
-                        <li class="scrollable"><a href="#vision">Vision</a>
-                        </li>
-                        <li class=""><a href="programme.html">Programme</a>
-                        </li>
-                        <li><a href="http://2018.foss4g.or.tz/">Register!</a>
-                        </li>
-                        <li class="scrollable"><a href="#sponsors">Sponsors</a>
-                        </li>
-                        <li class="scrollable"><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- end nav -->
-                <div class="clear"></div>
-            </div>
-        </header>
-    </section>
-    <!-- //header section -->
+    <section class="js-include" title="includes/page-nav.html" id="top"></section>
+    <section class="js-include" title="includes/branding-bar.html" id="branding" style="margin-top: 80px;"></section>
 
     <!-- page content -->
     <section class="page_section header">
@@ -132,119 +103,9 @@
         </div>
     </section>
 
-
-    <section id="sponsors">
-        <div class="container pt110 pb52">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <div class="welcome_text">
-                            <h2>Sponsors</h2>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="sponsor-group">
-                    <h3>Our latest sponros</h3>
-                    <div class="row">
-
-
-                        <div class="partner col-md-4 col-sm-3 col-xs-4">
-                            <a href="javascript:void(0);">
-
-                                <img src="./img/sponsors/Esri_logo.svg"
-                                     alt="Esri"/>
-
-                            </a>
-                        </div>
-                        <div class="partner col-md-4 col-sm-3  col-xs-4">
-                            <a href="javascript:void(0);">
-
-                                <img src="./img/sponsors/272px-Google_2015_logo.svg.png"
-                                     alt="google"/>
-
-                            </a>
-                        </div>
-                        <div class="partner col-md-4 col-sm-3 col-xs-4">
-                            <a href="javascript:void(0);">
-
-                                <img src="./img/sponsors/World_Bank_Group_logo.png"
-                                     alt="Worldbank group"/>
-
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="content-info" role="contentinfo">
-        <section class="block lets-connect">
-            <div class="container">
-                <h3 class="title title-h2">Contact us</h3>
-                <div class="row">
-
-                    <div class="col-lg-6 col-md-7">
-                        <section class="subscriptions">
-                            <p><i class="fa fa-map-marker"
-                                  aria-hidden="true"></i>
-                                <strong>Address</strong><br>
-                                Julius Nyerere International Convention
-                                Centre<br>
-                                Dar es Salaam</p>
-                        </section>
-                        <section class="subscriptions">
-                            <p><i class="fa fa-envelope"
-                                  aria-hidden="true"></i>
-                                <strong>Email</strong><br>
-                                foss4gdar@gmail.com</p>
-                        </section>
-                    </div>
-                    <div class="col-lg-6 col-md-4">
-                        <section class="social-media">
-                            <p><strong>Find us on</strong></p>
-                            <ul class="social list-inline">
-                                <li>
-                                    <a href="https://www.facebook.com/Foss4g2018/?ref=bookmarks"><i
-                                            class="fa fa-facebook"
-                                            aria-hidden="true"></i></a></li>
-                                <li>
-                                    <a href="https://twitter.com/foss4g2018#"><i
-                                            class="fa fa-twitter"
-                                            aria-hidden="true"></i></span></a>
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="block colophon">
-            <div class="container">
-
-                <p>© Copyright 2018.foss4g.org. All Rights Reserved. </p>
-
-
-            </div>
-        </section>
-        <div class="compass-footer"></div>
-    </footer>
-
-    <!--Contact content -->
-    <section class="" id="contact">
-
-
-        <div class="module_google_map" style="display:none;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6151825602956!2d106.82654155061107!3d-6.182229562275676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f42e10e365ff%3A0x6e3aac73cfbe1a87!2sBPBD+PROVINSI+DKI+JAKARTA!5e0!3m2!1sen!2sus!4v1457518219034"
-                    width="80%" height="450" frameborder="0" style="border:0"
-                    allowfullscreen height="400">
-            </iframe>
-        </div>
-    </section>
-
+<section class="js-include" title="includes/sponsors.html" role="contentinfo" id="sponsors"></section>
+<footer class="content-info js-include" title="includes/footer.html" role="contentinfo" id="contact"></footer>
+<footer class="js-include" title="includes/footer-map.html" role="contentinfo" id="map"></footer>
 
 </div>
 <!-- //wrapper -->
@@ -252,6 +113,6 @@
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/modules.js"></script>
 <script type="text/javascript" src="js/current.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="js/foss4g.js"></script>
 </body>
 </html>
